@@ -3,6 +3,7 @@
 webpage using google api
 
 ## Install the dependencies
+
 ```bash
 yarn
 # or
@@ -10,32 +11,19 @@ npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
+
 ```bash
 quasar dev
 ```
 
+### googe map Api Key
 
-### Lint the files
+please enter the api key in ./store/module-example/state.js
+
 ```bash
-yarn lint
+return {
+    apiKey: "",
+  };
 # or
 npm run lint
 ```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
